@@ -25,29 +25,37 @@
   <body>
     <!-- Шапка сайта -->
     <header class="page-header">
-      <div class="container header-nav">
-        <nav class="header-nav">
+      <div class="container container--flex">
+        <nav class="page-header__nav">
           <a href="./index.html" class="logo link">
-            <p><span class="logo-web">Web</span>Studio</p>
+            <p><span class="logo__span">Web</span>Studio</p>
           </a>
-          <ul class="list site-nav">
-            <li class="item"><a href="" class="link header-link-current nav-pages">Студия</a></li>
-            <li class="item"><a href="./portfolio.html" class="nav-pages link">Портфолио</a></li>
-            <li class="item"><a href="" class="nav-pages link">Контакты</a></li>
+          <ul class="page-header__list list">
+            <li class="page-header__item">
+              <a href="" class="page-header__nav-pages page-header__nav-pages--current link"
+                >Студия</a
+              >
+            </li>
+            <li class="page-header__item">
+              <a href="./portfolio.html" class="page-header__nav-pages link">Портфолио</a>
+            </li>
+            <li class="page-header__item">
+              <a href="" class="page-header__nav-pages link">Контакты</a>
+            </li>
           </ul>
         </nav>
-        <ul class="list contact-list">
-          <li class="contact item">
-            <a href="mailto:info@devstudio.com" class="contact link"
-              ><svg class="header-icon" width="16" height="12">
+        <ul class="page-header__contact-list list">
+          <li class="page-header__contact-item">
+            <a href="mailto:info@devstudio.com" class="page-header__socials link"
+              ><svg class="page-header__icon" width="16" height="12">
                 <use href="./projects-icon/icons.svg#envelope"></use>
               </svg>
               info@devstudio.com</a
             >
           </li>
-          <li class="contact item">
-            <a href="tel:+380961111111" class="contact link"
-              ><svg class="header-icon" width="10" height="16">
+          <li class="page-header__contact-item">
+            <a href="tel:+380961111111" class="page-header__socials link"
+              ><svg class="page-header__icon" width="10" height="16">
                 <use href="./projects-icon/icons.svg#smartphone"></use>
               </svg>
               +38 096 111 11 11</a
