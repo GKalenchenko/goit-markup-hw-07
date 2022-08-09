@@ -352,7 +352,7 @@ img {
   background-color: var(--background-color-team);
 }
 
-.team-member {
+.section-team__member-title {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.19;
@@ -363,7 +363,7 @@ img {
   margin-top: 30px;
 }
 
-.section-profession {
+.section-team__member-profession {
   font-weight: 400;
   font-size: 16px;
   line-height: 1.19;
@@ -374,33 +374,33 @@ img {
   margin-bottom: 16px;
 }
 
-.team-list {
+.section-team__list {
   display: flex;
 }
 
-.team-list .item:not(:last-child) {
+.section-team__item:not(:last-child) {
   margin-right: 30px;
 }
 
-.section-team .item {
+.section-team__item {
   background-color: #FFFFFF;
   padding-bottom: 30px;
   border-radius: 0px 0px 4px 4px;
 }
 
-.team-list>.item {
+.section-team__item {
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
 }
 
 /*----------- social links -----------*/
-.social-list {
+.section-team__social-list {
   display: flex;
   align-items: center;
   justify-content: center;
   gap: 10px;
 }
 
-.social-link {
+.section-team__link {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -412,29 +412,31 @@ img {
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.social-icon {
+.section-team__icon {
   fill: var(--logo-color);
 
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.social-link:hover, .social-link:focus {
+.section-team__link:hover,
+.section-team__link:focus {
   background-color: var(--accent-color);
 }
 
-.social-link:hover .social-icon, .social-link:focus .social-icon {
+.section-team__link:hover .section-team__icon,
+.section-team__link:focus .section-team__icon {
   fill: var(--default-white);
 }
 
 /*----------- clients section -----------*/
-.clients-list {
+.clients-section__list {
   display: flex;
   align-items: center;
   justify-content: center;
   gap: 30px;
 }
 
-.clients-item {
+.clients-section__item {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -443,21 +445,23 @@ img {
   height: 92px;
 }
 
-.clients-icon {
+.clients-section__icon {
   fill: var(--logo-color);
 
-  transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1), fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.clients-link:focus, .clients-link:hover {
+.clients-section__link:focus, .clients-section__link:hover {
   border-color: var(--accent-color);
 }
 
-.clients-link:focus .clients-icon, .clients-link:hover .clients-icon {
+.clients-section__link:focus .clients-section__icon,
+.clients-section__link:hover .clients-section__icon {
   fill: var(--accent-color);
 }
 
-.clients-link {
+.clients-section__link {
   border: 1px solid var(--logo-color);
   border-radius: 4px;
   padding: 16px 32px;
