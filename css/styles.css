@@ -468,54 +468,8 @@ img {
 }
 
 /*----------- footer section -----------*/
-.logo-footer {
-  font-family: 'Raleway', sans-serif;
-  font-weight: 700;
-  font-size: 26px;
-  line-height: 1.19;
-  letter-spacing: 0.03em;
-  color: var(--default-white);
-  margin-bottom: 20px;
-}
 
-.web-footer {
-  color: var(--accent-color);
-}
-
-.footer .item {
-  margin-bottom: 9px;
-}
-
-.adress-footer {
-  font-weight: 400;
-  font-size: 14px;
-  font-style: normal;
-  line-height: 1.71;
-  letter-spacing: 0.03em;
-  color: var(--default-white);
-
-  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
-
-.contact-footer {
-  font-weight: 400;
-  font-size: 14px;
-  font-style: normal;
-  line-height: 1.71;
-  letter-spacing: 0.03em;
-  color: rgba(255, 255, 255, 0.6);
-
-  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
-
-.adress-footer:focus,
-.adress-footer:hover,
-.contact-footer:hover,
-.contact-footer:focus {
-  color: var(--accent-color);
-}
-
-.footer {
+.page-footer {
   background-color: var(--background-color);
   padding-bottom: 60px;
   padding-top: 60px;
@@ -527,13 +481,60 @@ img {
   align-items: baseline;
 }
 
-.footer-social {
-  margin-left: 71px;
+.page-footer__logo {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+  color: var(--default-white);
+  margin-bottom: 20px;
+}
+
+.page-footer__logo-span {
+  color: var(--accent-color);
+}
+
+.page-footer__item {
+  margin-bottom: 9px;
+}
+
+.footer-container__adress {
+  font-weight: 400;
+  font-size: 14px;
+  font-style: normal;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: var(--default-white);
+
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.page-footer__contact {
+  font-weight: 400;
+  font-size: 14px;
+  font-style: normal;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: rgba(255, 255, 255, 0.6);
+
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.footer-container__adress:focus,
+.footer-container__adress:hover,
+.page-footer__contact:hover,
+.page-footer__contact:focus {
+  color: var(--accent-color);
 }
 
 /*----------- footer social links -----------*/
 
-.footer-title {
+.page-footer__social {
+  margin-left: 71px;
+}
+
+.page-footer__social-title {
   text-align: left;
   margin-bottom: 20px;
   color: var(--default-white);
@@ -544,14 +545,14 @@ img {
   text-transform: uppercase;
 }
 
-.footer-list {
+.page-footer__social-list {
   display: flex;
   align-items: center;
   justify-content: center;
   gap: 10px;
 }
 
-.footer-link {
+.page-footer__link {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -563,26 +564,27 @@ img {
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.footer-icons {
+.page-footer__icon {
   fill: var(--default-white);
 }
 
-.footer-link:hover, .footer-link:focus {
+.page-footer__link:hover,
+.page-footer__link:focus {
   background-color: var(--accent-color);
 }
 
 /*----------- footer subscribe -----------*/
 
-.footer-sub {
+.page-footer__subscribe {
   margin-left: 93px;
 }
 
-.footer-form {
+.page-footer__form {
   display: flex;
   align-items: flex-end;
 }
 
-.input-wrapper {
+.page-footer__wrapper {
   display: flex;
   align-items: flex-start;
   justify-content: center;
@@ -591,7 +593,7 @@ img {
   margin-right: 12px;
 }
 
-.sub-title {
+.page-footer__form-title {
   font-style: normal;
   font-size: 14px;
   line-height: 1.42;
@@ -603,7 +605,7 @@ img {
   color: var(--default-white);
 }
 
-.sub-input {
+.page-footer__input {
   width: 358px;
   height: 50px;
 
@@ -616,14 +618,14 @@ img {
   transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.sub-input:hover,
-.sub-input:focus {
+.page-footer__input:hover,
+.page-footer__input:focus {
   outline: none;
   border-color: var(--accent-color);
 }
 
 
-.sub-input::placeholder {
+.page-footer__input::placeholder {
   font-weight: 400;
   font-size: 16px;
   line-height: 1.25px;
@@ -632,7 +634,7 @@ img {
   color: rgba(255, 255, 255, 0.6);
 }
 
-.sub-btn {
+.page-footer__btn {
   display: flex;
   align-items: center;
 
@@ -654,13 +656,13 @@ img {
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.sub-btn:hover,
-.sub-btn:focus {
+.page-footer__btn:hover,
+.page-footer__btn:focus {
   background-color: var(--button-hover);
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
 }
 
-.send-icon {
+.page-footer__form-icon {
   fill: var(--default-white);
   margin-left: 10px;
 }
