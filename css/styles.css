@@ -305,15 +305,15 @@ img {
   margin: 0;
 }
 
-.img-list {
+.section-doing__list {
   display: flex;
 }
 
-.img-list>.item {
+.section-doing__item {
   position: relative;
 }
 
-.doing-overlay {
+.section-doing__overlay {
   padding-top: 27px;
   text-align: center;
   width: 370px;
@@ -324,7 +324,7 @@ img {
   left: 0;
 }
 
-.title-overlay {
+.section-doing__title-overlay {
   font-family: var(--main-font);
   font-weight: 700;
   font-size: 14px;
@@ -335,7 +335,7 @@ img {
 
 }
 
-.img-list .item.item:not(:last-child) {
+.section-doing__item:not(:last-child) {
   margin-right: 30px;
 }
 
