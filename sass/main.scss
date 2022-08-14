@@ -5,10 +5,16 @@
 // base styles
 @import './base/base';
 @import './base/reset';
-
+@import './base/typography';
 // components styles
 @import './components/container';
 @import './components/section';
 @import './components/logo';
+@import './components/hero-btn';
+@import './components/team-social';
 // layout styles
 @import './layout/header';
+@import './layout/hero';
+@import './layout/advantage-section';
+@import './layout/doing-section';
+@import './layout/team-section';

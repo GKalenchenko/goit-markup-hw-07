@@ -189,7 +189,7 @@ img {
 } */
 
 /*----------- hero section -----------  */
-.hero-section {
+/* .hero-section {
   background-color: var(--background-color);
   text-align: center;
   padding-top: 200px;
@@ -232,11 +232,11 @@ img {
 .hero-section__btn:hover,
 .hero-section__btn:focus {
   background-color: var(--button-hover);
-}
+} */
 
 /*----------- hero overlay -----------  */
 
-.hero-overlay {
+/* .hero-overlay {
   margin-right: auto;
   margin-left: auto;
   height: 600px;
@@ -244,12 +244,12 @@ img {
   background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../images/hero-back.jpg);
   background-size: cover;
   background-position: center;
-  background-repeat: no-repeat;
+  background-repeat: no-repeat; 
 }
-
+*/
 /*----------- advantage section -----------  */
 
-.advantage-section__title {
+/* .advantage-section__title {
   font-weight: 700;
   font-size: 14px;
   line-height: 1.14;
@@ -278,11 +278,11 @@ img {
 
 .advantage-section__item {
   width: 270px;
-}
+} */
 
 /*----------- advantage icon -----------  */
 
-.advantage-section__background {
+/* .advantage-section__background {
   margin-bottom: 30px;
   display: flex;
   align-items: center;
@@ -291,11 +291,11 @@ img {
   width: 270px;
   background: #F5F4FA;
   border-radius: 4px;
-}
+} */
 
 /*----------- section doing ----------- */
 
-.section-title {
+/* .section-title {
   font-weight: 700;
   font-size: 36px;
   line-height: 1.16;
@@ -341,14 +341,14 @@ img {
 
 .section-title {
   margin-bottom: 50px;
-}
+} 
 
-.section.section-doing {
+.section-doing {
   padding-top: 0px;
 }
-
+*/
 /*-----------our team section -----------*/
-.section-team {
+/* .section-team {
   background-color: var(--background-color-team);
 }
 
@@ -390,10 +390,10 @@ img {
 
 .section-team__item {
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
-}
+} */
 
 /*----------- social links -----------*/
-.section-team__social-list {
+/* .section-team__social-list {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -426,7 +426,7 @@ img {
 .section-team__link:hover .section-team__icon,
 .section-team__link:focus .section-team__icon {
   fill: var(--default-white);
-}
+} */
 
 /*----------- clients section -----------*/
 .clients-section__list {
