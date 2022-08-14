@@ -1,8 +1,8 @@
-:root {
-  /* ---fonts--- */
+/* :root {
+  ---fonts---
   --main-font: 'Roboto', sans-serif;
   --secondary-font: 'Raleway', sans-serif;
-  /* ---colors--- */
+  ---colors---
   --primary-color: #212121;
   --secondary-color: #757575;
   --accent-color: #2196F3;
@@ -10,20 +10,20 @@
   --default-white: #FFFFFF;
   --button-hover: #188CE8;
   --logo-color: #AFB1B8;
-  /* ---bg colors--- */
+  ---bg colors---
   --background-color: #2F303A;
   --background-color-team: #F5F4FA;
-  /* ---others--- */
+  ---others---
 
-}
+} */
 
-body {
+/* body {
   font-family: var(--main-font);
   color: var(--primary-text-color);
-}
+} */
 
 /* --reset styles-- */
-.link {
+/* .link {
   text-decoration: none;
   color: currentColor;
 }
@@ -41,9 +41,9 @@ img {
   padding: 0;
   margin: 0;
   list-style: none;
-}
+} */
 
-.container {
+/* .container {
   width: 1200px;
   margin-left: auto;
   margin-right: auto;
@@ -54,14 +54,14 @@ img {
 .container--flex {
   display: flex;
   align-items: center;
-}
+} */
 
-.section {
+/* .section {
   padding-top: 94px;
   padding-bottom: 94px;
-}
+} */
 
-.visually-hidden {
+/* .visually-hidden {
   position: absolute;
   width: 1px;
   height: 1px;
@@ -73,15 +73,10 @@ img {
   clip-path: inset(100%);
   clip: rect(0 0 0 0);
   overflow: hidden;
-}
+} */
 
 /*----------- header section -----------*/
-
-.page-header {
-  border-bottom: 1px solid #ECECEC;
-}
-
-.logo {
+/* .logo {
   font-family: 'Raleway', sans-serif;
   font-weight: 700;
   font-size: 26px;
@@ -92,7 +87,12 @@ img {
 
 .logo__span {
   color: var(--accent-color);
+} */
+
+/* .page-header {
+  border-bottom: 1px solid #ECECEC;
 }
+
 
 .page-header__list {
   display: flex;
@@ -186,7 +186,7 @@ img {
 
 .page-header__contact-item {
   display: flex;
-}
+} */
 
 /*----------- hero section -----------  */
 .hero-section {

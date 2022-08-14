@@ -1,7 +1,14 @@
 // utils styles
+@import './utils/variables';
+@import './utils/visually-hidden';
+
 // base styles
+@import './base/base';
+@import './base/reset';
+
 // components styles
+@import './components/container';
+@import './components/section';
+@import './components/logo';
 // layout styles
-list {
-  margin: 0px;
-}
+@import './layout/header';
